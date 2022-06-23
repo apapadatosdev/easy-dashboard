@@ -21,7 +21,8 @@
     "tailwindcss": "2.0.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start-frontend": "react-scripts start",
+    "start": "node app.js",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
